@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import Product from '../components/Product'
 
+
 const HomeScreen = () => {
   const [products, setProducts] = useState([])
 
