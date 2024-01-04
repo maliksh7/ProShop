@@ -1,10 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { apiSlice } from './slices/apiSlice';
+import cartSliceReduce from './slices/cartSlice';
 
 const store = configureStore({
+    // Global store configuration object that includes the generated reducer [Global reducer]
     reducer: {
         // Add the generated reducer as a specific top-level slice
-        [apiSlice.reducerPath]: apiSlice.reducer,
+        [apiSlice.reducerPath]: apiSlice.reducer, // Add the apiSlice reducer to the store
+        cart: cartSliceReduce, // Add the cart slice to the store
     },
     middleware: (getDefaultMiddleware) =>
         getDefaultMiddleware().concat(apiSlice.middleware),

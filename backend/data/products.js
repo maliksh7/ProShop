@@ -11,6 +11,21 @@ const products = [
       rating: 4.5,
       numReviews: 12,
     },
+
+    {
+
+      name: 'Amazon Alexa Echo Dot (5th Generation)',
+      image: '/images/alexa5.jpg',
+      description: 'Your favourite music and content: play music, audiobooks and podcasts from Amazon Music, Apple Music, Spotify, Deezer and more, or via Bluetooth throughout your home.',
+      brand: 'Amazon',
+      category: 'Electronics',
+      price: 74.99,
+      countInStock: 14,
+      rating: 4.7,
+      numReviews: 23,
+    },
+
+
     {
 
       name: 'iPhone 11 Pro 256GB Memory',
