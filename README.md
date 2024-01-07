@@ -48,6 +48,6 @@ Proshop is a full-stack e-commerce application built using the MERN stack (Mongo
     ```
     This will start both the frontend and backend servers concurrently.
 
-    **Happy Coding!!**S
+    **Happy Coding!!**
 
 
